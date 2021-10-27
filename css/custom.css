@@ -1,0 +1,96 @@
+#content-page {
+  min-height: 400px;
+  padding: 20px;
+}
+
+#content p {
+  font-family: sans-serif, Raleway;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #363636;
+  }
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left:0;
+    bottom: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.team .col-lg-4 {
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.section-divider{ 
+    margin: 3rem 0;
+}
+
+.footer-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+@media (min-width: 1200px) {
+  .feature-heading {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 540px) {
+    .carouselImg {
+        display: none;
+    }
+    
+    .team {
+        margin-top: 2rem;
+    }
+}
+
+#gallery img{
+  width:115px;
+  margin:12px;
+  -moz-transition: -moz-transform 0.3s ease-in;
+  -webkit-transition: -webkit-transform 0.3s ease-in;
+  -o-transition: -o-transform 0.3s ease-in;
+}
+
+#gallery img:hover{
+  -moz-transform:scale(2) ;
+  -webkit-transform: scale(2);
+  -o-transform:scale(2) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
